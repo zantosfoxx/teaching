@@ -168,3 +168,12 @@ var GAUGE = d3.select('#gauge').node();
 Plotly.newPlot(GAUGE, data, layout);
 
 }
+
+/**
+//   optionChanged() function
+**/
+ function optionChanged(newSample) {
+  // Fetch new data each time a new sample is selected
+  buildCharts(newSample);
+  buildMetadata(newSample);
+} 
