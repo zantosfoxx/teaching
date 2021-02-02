@@ -4,4 +4,4 @@ Jinja2
 Werkzeug
 
 # Needed for this specific app
-Flask
+flask
